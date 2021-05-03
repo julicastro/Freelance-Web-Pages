@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap:wght@400;700&display=swap');
+
+@import "base/normalize";
+@import "base/variables";
+@import "base/mixins";
+@import "base/globales";
+@import "base/utilidades";
+
+@import "layout/header";
+@import "layout/hero";
+@import "layout/nosotros";
+@import "layout/transicion";
+@import "layout/tratamientos";
+@import "layout/contacto";
+@import "layout/footer";
+
+@import "layout/asesoramiento";
+
+@import "layout/pages";
