@@ -24,6 +24,7 @@
 
         .contacto-col{
             display: flex;
+            flex-direction: column;
             justify-content: center;
             align-items: center;
             margin: 0;
@@ -51,4 +52,27 @@
         color: grey;
         text-align: center;
     }
+}
+
+.contacto-email{
+    margin-bottom: 7rem;
+    margin-top: 1rem;
+    @include desktop{
+        margin-top: 1rem;
+        margin-bottom: 0;
+    }
+    .email-mensaje{
+        background-color: $primario;
+        padding: 1.1rem 2rem;
+        color: $blanco;
+        border: none;
+        
+        &:hover{
+            background-color: $gris;
+            color: grey;
+        }
+        
+
+    }
+
 }

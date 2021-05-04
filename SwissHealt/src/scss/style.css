@@ -892,6 +892,10 @@ ul li::marker {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -921,6 +925,30 @@ ul li::marker {
   font-size: 2rem;
   color: grey;
   text-align: center;
+}
+
+.contacto-email {
+  margin-bottom: 7rem;
+  margin-top: 1rem;
+}
+
+@media (min-width: 1200px) {
+  .contacto-email {
+    margin-top: 1rem;
+    margin-bottom: 0;
+  }
+}
+
+.contacto-email .email-mensaje {
+  background-color: #bf0225;
+  padding: 1.1rem 2rem;
+  color: #ffffff;
+  border: none;
+}
+
+.contacto-email .email-mensaje:hover {
+  background-color: #f2f2f2;
+  color: grey;
 }
 
 .footer {
