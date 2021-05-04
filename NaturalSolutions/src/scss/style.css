@@ -909,7 +909,7 @@ ul li::marker {
 @media (min-width: 1200px) {
   .contacto .contacto-contendor .contacto-col {
     width: 45rem;
-    height: 25rem;
+    height: 35rem;
     padding-right: 1px solid #dddddd;
     padding-right: 6rem;
   }
