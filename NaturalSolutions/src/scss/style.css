@@ -927,28 +927,30 @@ ul li::marker {
   text-align: center;
 }
 
+.contacto-col a {
+  font-size: 2rem;
+  text-align: center;
+}
+
 .contacto-email {
   margin-bottom: 7rem;
   margin-top: 1rem;
-}
-
-@media (min-width: 1200px) {
-  .contacto-email {
-    margin-top: 1rem;
-    margin-bottom: 0;
-  }
-}
-
-.contacto-email .email-mensaje {
   background-color: #bf0225;
   padding: 1.1rem 2rem;
   color: #ffffff;
   border: none;
 }
 
-.contacto-email .email-mensaje:hover {
+.contacto-email:hover {
   background-color: #f2f2f2;
   color: grey;
+}
+
+@media (min-width: 1200px) {
+  .contacto-email {
+    margin-top: 1rem;
+    margin-bottom: 2;
+  }
 }
 
 .footer {

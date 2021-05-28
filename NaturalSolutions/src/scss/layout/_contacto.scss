@@ -52,27 +52,27 @@
         color: grey;
         text-align: center;
     }
+    a{
+        font-size: 2rem;
+        text-align: center;
+    }
 }
 
 .contacto-email{
     margin-bottom: 7rem;
     margin-top: 1rem;
+    background-color: $primario;
+    padding: 1.1rem 2rem;
+    color: $blanco;
+    border: none;
+    &:hover{
+        background-color: $gris;
+        color: grey;
+    }
     @include desktop{
         margin-top: 1rem;
-        margin-bottom: 0;
+        margin-bottom: 2;
     }
-    .email-mensaje{
-        background-color: $primario;
-        padding: 1.1rem 2rem;
-        color: $blanco;
-        border: none;
-        
-        &:hover{
-            background-color: $gris;
-            color: grey;
-        }
-        
 
-    }
 
 }
