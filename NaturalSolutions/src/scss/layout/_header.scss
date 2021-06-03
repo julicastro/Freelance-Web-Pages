@@ -1,30 +1,26 @@
 /* Titulo, Logo y Telefono*/
 
 .titulo{
-    display: block;
+    display: flex;
+    flex-direction: column;
     text-align: center;
     margin-top: 1rem;
     @include desktop{
-        display: flex;
+        flex-direction: row;
         justify-content: space-around;
-        margin-top: 5rem;
-        margin-bottom: 2rem;
-    .titulo-logo{
-        display: flex;
-        .logo-nombre{
-            align-items: center;
-            margin-left: 3.5rem;
-            }
-        }
+
     }
 }
 
 .logo-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     img{
-        width: 7rem;
+        width: 20rem;
         margin: 2rem 0;
         @include desktop{
-            width: 5rem;
+            width: 25rem;
             margin: 0;
         }
     }

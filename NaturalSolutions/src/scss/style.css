@@ -388,7 +388,7 @@ h1, h2, h3, h4 {
 
 h1 {
   font-size: 4.5rem;
-  color: #bf0225;
+  color: #1997b0;
   letter-spacing: .7rem;
   word-spacing: .7rem;
   font-weight: 700;
@@ -399,7 +399,7 @@ h2 {
   text-transform: uppercase;
   text-align: center;
   font-size: 4rem;
-  color: #bf0225;
+  color: #1997b0;
 }
 
 @media (min-width: 1200px) {
@@ -438,7 +438,7 @@ hr {
 .section-title .punto {
   width: 1.2rem;
   height: 1.2rem;
-  background-color: #bf0225;
+  background-color: #1997b0;
 }
 
 li {
@@ -449,7 +449,7 @@ li {
 }
 
 .barra-color .color-hr {
-  background-color: #bf0225 !important;
+  background-color: #1997b0 !important;
   height: 1.2rem;
   margin: 0;
 }
@@ -460,42 +460,48 @@ li {
 
 /* Titulo, Logo y Telefono*/
 .titulo {
-  display: block;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   text-align: center;
   margin-top: 1rem;
 }
 
 @media (min-width: 1200px) {
   .titulo {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
     -ms-flex-pack: distribute;
         justify-content: space-around;
-    margin-top: 5rem;
-    margin-bottom: 2rem;
-  }
-  .titulo .titulo-logo {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-  }
-  .titulo .titulo-logo .logo-nombre {
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    margin-left: 3.5rem;
   }
 }
 
+.logo-img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
 .logo-img img {
-  width: 7rem;
+  width: 20rem;
   margin: 2rem 0;
 }
 
 @media (min-width: 1200px) {
   .logo-img img {
-    width: 5rem;
+    width: 25rem;
     margin: 0;
   }
 }
@@ -547,7 +553,7 @@ li {
 }
 
 .navegacion-principal a:hover {
-  background-color: #bf0225;
+  background-color: #1997b0;
   color: #ffffff;
 }
 
@@ -653,7 +659,7 @@ li {
 }
 
 .contenido-hero div .bloque-1 {
-  background-color: rgba(191, 2, 37, 0.5);
+  background-color: rgba(25, 151, 176, 0.5);
 }
 
 .contenido-hero div .bloque-2 {
@@ -661,7 +667,7 @@ li {
 }
 
 .contenido-hero div .bloque-3 {
-  background-color: rgba(25, 151, 176, 0.5);
+  background-color: rgba(191, 2, 37, 0.5);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -801,7 +807,7 @@ ul li::marker {
 
 .transicion-columna .columna-img hr {
   margin-top: 0;
-  background-color: #bf0225;
+  background-color: #1997b0;
   height: 1rem;
 }
 
@@ -816,7 +822,7 @@ ul li::marker {
 }
 
 .transicion-columna .columna-boton a {
-  background-color: #bf0225;
+  background-color: #1997b0;
   padding: 1.1rem 2rem;
   color: #ffffff;
   border: none;
@@ -841,11 +847,11 @@ ul li::marker {
 }
 
 .fila-3 .columna-img hr {
-  background-color: #1997b0 !important;
+  background-color: #bf0225 !important;
 }
 
 .fila-3 .columna-boton a {
-  background-color: #1997b0;
+  background-color: #bf0225;
 }
 
 .contacto .contacto-contendor {
@@ -935,7 +941,7 @@ ul li::marker {
 .contacto-email {
   margin-bottom: 7rem;
   margin-top: 1rem;
-  background-color: #bf0225;
+  background-color: #1997b0;
   padding: 1.1rem 2rem;
   color: #ffffff;
   border: none;
